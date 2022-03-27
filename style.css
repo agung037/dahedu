@@ -48,7 +48,7 @@ ul.horizontal li {
     padding: 20px;
     border: 1px solid rgb(0, 0, 0);
     float: left;
-    width: 27%;
+    width: 33%;
     height: auto;
     text-align: left;
     color: rgb(17, 16, 16);
@@ -56,10 +56,26 @@ ul.horizontal li {
 
 
 i{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .box-item:hover {
   background-color: #E7D4B5;
 
 }
+
+.card-body:hover{
+  background-color: #F6E6CB;
+
+}
+
+
+.card{
+  height: 300px;
+}
+
+
+.border-bottom{
+ border-bottom: .5px solid black!important
+}
+

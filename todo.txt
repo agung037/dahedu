@@ -1,0 +1,9 @@
+1. Membuat halaman pendaftaran
+2. Membuat fungsi pembayaran
+  a. menggunakan midtrans
+  b. atau menggunakan upload bukti transfer
+3. Mengisi halaman yang berisi course gratisan
+4. Isi halaman promo (dummy)
+5. Isi halaman FAQ (asal asalan lorem ipsum gpp) referensi https://prnt.sc/S8VAq1ZLp2aT demo https://hacktiv8.com/full-stack-javascript-immersive\
+6. Isi halaman contact us ref https://prnt.sc/AkgJXQ-eBRWN
+7. Membuat halaman belajar (member only) ref https://prnt.sc/mTGBdLSDDvGN

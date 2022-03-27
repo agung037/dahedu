@@ -15,7 +15,8 @@
     <div class="container ">
 
         <!-- bagian atas -->
-        <div class="top-section d-flex justify-content-around border-bottom">
+        <div class="top-section d-flex justify-content-around border-bottom mb-4">
+
             <div class="title ">
                 <h1>dah.edu</h1>
             </div>
@@ -29,9 +30,10 @@
                       <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
                       <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Free Content</a>
-                        <a class="dropdown-item" href="#">Promo !</a>
+                        <a class="dropdown-item" href="#">Event !</a>
                         <a class="dropdown-item" href="#">FAQ</a>
-                        <a class="dropdown-item" href="#">Become Teacher</a>
+                        <!-- They dont pay me enough for this shit ! -->
+                        <!--<a class="dropdown-item" href="#">Become Teacher</a> -->
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Contact Us</a>
                       </div>
@@ -40,7 +42,7 @@
                       <a class="nav-link" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About US</a>
+                      <a class="nav-link" href="./aboutus/aboutus.html">About US</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Member Page</a>
@@ -75,7 +77,7 @@
 
             <!-- gambar -->
             <div class="gambar">
-                <img src="./mainimg.png" class="rounded mx-auto d-block" alt="...">
+                <img src="./img/mainimg.png" class="rounded mx-auto d-block" alt="...">
             </div>
         </div>
         <!-- akhir bagian tengah -->
@@ -83,46 +85,38 @@
         <!-- bagian bawah -->
         <div class="bottom-section ">
 
-            <div class="box animate__animated animate__bounceInUp">
-                <ul class="horizontal d-flex justify-content-center">
-                    <li class="box-item">
-                        <i class="bi bi-person-video2"></i>
-                        <p class="super-large">
-                            1200+ <br>
-                            Online Courses
-                        </p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ex magni dolor?</p>
-                    </li>
-                    <li class="box-item">
-                        <i class="bi bi-file-earmark-font"></i>
-                        <p class="super-large">
-                            220+ <br>
-                            Certified Teacher
-                        </p>
+    <div class="tiga-card d-flex justify-content-around">
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ex magni dolor?</p>
-                    </li>
-                    <li class="box-item">
-                        <i class="bi bi-people-fill"></i>
-                        <p class="super-large">
-                            30K+ <br>
-                            Students
-                        </p>
-
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ex magni dolor?</p>
-                    </li>
-
-                </ul>
-              <br>
-            </div>
-
+      <div class="card mb-3 animate__animated animate__bounceIn" style="max-width: 25rem; background-color: #F3E9DD;">
+        <div class="card-body">
+          <i class="bi bi-person-video2"></i>
+          <h4 class="card-title super-large">220+ <br> Certified Teacher</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
+     </div>
+
+      <div class="card mb-3 animate__animated animate__bounceIn" style="max-width: 25rem; background-color: #F3E9DD;">
+        <div class="card-body">
+          <i class="bi bi-file-earmark-font"></i>
+          <h4 class="card-title super-large">1200+ <br> Online Courses</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+     </div>
+
+      <div class="card mb-3 animate__animated animate__bounceIn" style="max-width: 25rem; background-color: #F3E9DD;">
+        <div class="card-body ">
+          <i class="bi bi-people-fill"></i>
+          <h4 class="card-title super-large">30K+ <br> Students</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+     </div>
     </div>
 
+  </div>
+<!-- akhir bagian bawah -->
 
-
-
+    
     <script src="./bootstrap.bundle.min.js"></script>
 </body>
 </html>
